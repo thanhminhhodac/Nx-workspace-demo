@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@thanhminh-org/admin/feature/header": [
+        "libs/admin/feature/header/src/index.js"
+      ],
       "@thanhminh-org/shared/feature/footer": [
         "libs/shared/feature/footer/src/index.js"
       ]
