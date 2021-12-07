@@ -3,8 +3,6 @@
   "projects": {
     "admin-app": "apps/admin-app",
     "admin-app-e2e": "apps/admin-app-e2e",
-    "admin-feature-header": "libs/admin/feature/header",
-    "admin-pages-dashboard": "libs/admin/pages/dashboard",
     "client-app": "apps/client-app",
     "client-app-e2e": "apps/client-app-e2e",
     "client-feature-header": "libs/client/feature/header",

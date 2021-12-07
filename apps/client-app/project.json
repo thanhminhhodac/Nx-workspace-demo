@@ -5,7 +5,9 @@
   "targets": {
     "build": {
       "executor": "@nrwl/web:build",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "defaultConfiguration": "production",
       "options": {
         "outputPath": "dist/apps/client-app",
@@ -18,7 +20,9 @@
           "apps/client-app/src/favicon.ico",
           "apps/client-app/src/assets"
         ],
-        "styles": ["apps/client-app/src/styles.scss"],
+        "styles": [
+          "apps/client-app/src/styles.scss"
+        ],
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
@@ -54,19 +58,27 @@
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["apps/client-app/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "apps/client-app/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/client-app"],
+      "outputs": [
+        "coverage/apps/client-app"
+      ],
       "options": {
         "jestConfig": "apps/client-app/jest.config.js",
         "passWithNoTests": true
       }
     }
   },
-  "tags": ["scope:client"]
+  "tags": [
+    "scope:client"
+  ]
 }

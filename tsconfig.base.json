@@ -10,17 +10,14 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@thanhminh-org/admin/feature/header": [
-        "libs/admin/feature/header/src/index.js"
-      ],
-      "@thanhminh-org/admin/pages/dashboard": [
-        "libs/admin/pages/dashboard/src/index.js"
-      ],
       "@thanhminh-org/client/feature/header": [
         "libs/client/feature/header/src/index.js"
       ],
@@ -38,5 +35,8 @@
       ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }

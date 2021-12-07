@@ -2,18 +2,26 @@
   "root": "libs/shared/ui/header-logo",
   "sourceRoot": "libs/shared/ui/header-logo/src",
   "projectType": "library",
-  "tags": ["scope:shared"],
+  "tags": [
+    "scope:shared"
+  ],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["libs/shared/ui/header-logo/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": [
+          "libs/shared/ui/header-logo/**/*.{ts,tsx,js,jsx}"
+        ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/shared/ui/header-logo"],
+      "outputs": [
+        "coverage/libs/shared/ui/header-logo"
+      ],
       "options": {
         "jestConfig": "libs/shared/ui/header-logo/jest.config.js",
         "passWithNoTests": true
