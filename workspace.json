@@ -3,10 +3,12 @@
   "projects": {
     "admin-app": "apps/admin-app",
     "admin-app-e2e": "apps/admin-app-e2e",
+    "admin-feature-config": "libs/admin/feature/config",
     "admin-feature-header": "libs/admin/feature/header",
     "client-app": "apps/client-app",
     "client-app-e2e": "apps/client-app-e2e",
     "client-feature-header": "libs/client/feature/header",
+    "shared-feature-config": "libs/shared/feature/config",
     "shared-feature-footer": "libs/shared/feature/footer",
     "shared-pages-homepage": "libs/shared/pages/homepage"
   }

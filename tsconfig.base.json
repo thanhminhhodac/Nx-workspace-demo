@@ -15,11 +15,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@thanhminh-org/admin/feature/config": [
+        "libs/admin/feature/config/src/index.js"
+      ],
       "@thanhminh-org/admin/feature/header": [
         "libs/admin/feature/header/src/index.js"
       ],
       "@thanhminh-org/client/feature/header": [
         "libs/client/feature/header/src/index.js"
+      ],
+      "@thanhminh-org/shared/feature/config": [
+        "libs/shared/feature/config/src/index.js"
       ],
       "@thanhminh-org/shared/feature/footer": [
         "libs/shared/feature/footer/src/index.js"
