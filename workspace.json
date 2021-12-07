@@ -10,6 +10,7 @@
     "client-feature-header": "libs/client/feature/header",
     "shared-feature-config": "libs/shared/feature/config",
     "shared-feature-footer": "libs/shared/feature/footer",
-    "shared-pages-homepage": "libs/shared/pages/homepage"
+    "shared-pages-homepage": "libs/shared/pages/homepage",
+    "shared-ui-header-logo": "libs/shared/ui/header-logo"
   }
 }

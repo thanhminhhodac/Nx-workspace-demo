@@ -32,6 +32,9 @@
       ],
       "@thanhminh-org/shared/pages/homepage": [
         "libs/shared/pages/homepage/src/index.js"
+      ],
+      "@thanhminh-org/shared/ui/header-logo": [
+        "libs/shared/ui/header-logo/src/index.js"
       ]
     }
   },
