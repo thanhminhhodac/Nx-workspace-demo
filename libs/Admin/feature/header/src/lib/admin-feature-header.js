@@ -1,8 +1,14 @@
-import './admin-feature-header.module.scss';
+// libs
+import React from 'react';
+// shared libs
+import { HeaderLogo } from '@thanhminh-org/shared/ui/header-logo';
+
 export const Header = () => {
   return (
     <div className="header-wrapper">
-      <h1>Welcome to Admin Header!</h1>
+      <div className="header-wrapper-inner">
+        <HeaderLogo title="AdminSite" />
+      </div>
     </div>
   );
 };

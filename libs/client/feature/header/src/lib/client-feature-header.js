@@ -1,7 +1,13 @@
+// libs
+import React from 'react';
+// shared library
+import { HeaderLogo } from '@thanhminh-org/shared/ui/header-logo';
 export const Header = () => {
   return (
     <div className="header-wrapper">
-      <h1>Welcome to Client Header!</h1>
+      <div className="header-wrapper-inner">
+        <HeaderLogo title="ClientSite" />
+      </div>
     </div>
   );
 };

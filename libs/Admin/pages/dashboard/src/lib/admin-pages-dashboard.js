@@ -1,4 +1,5 @@
-import './admin-pages-dashboard.module.scss';
+import { HeaderLogo } from '@thanhminh-org/shared/ui/header-logo';
+
 export const Dashboard = () => {
   return (
     <div className="dashboard-wrapper">
