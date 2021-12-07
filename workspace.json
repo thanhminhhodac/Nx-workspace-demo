@@ -13,6 +13,7 @@
     "shared-pages-homepage": "libs/shared/pages/homepage",
     "shared-pages-showall": "libs/shared/pages/showall",
     "shared-ui-header-logo": "libs/shared/ui/header-logo",
-    "shared-ui-header-navlink": "libs/shared/ui/header-navlink"
+    "shared-ui-header-navlink": "libs/shared/ui/header-navlink",
+    "shared-util-data-sources": "libs/shared/util/data-sources"
   }
 }

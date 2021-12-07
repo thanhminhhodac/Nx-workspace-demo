@@ -6,9 +6,11 @@
       margin: 0 auto;
       max-width: 1200px;
       height: 100%;
-      display: flex;
+      display: grid;
+      grid-template-areas: 'title' 'body';
+      grid-template-rows: 200px auto;
       align-items: center;
-      justify-content: center;
+      justify-items: center;
     }
   }
   &-title {
