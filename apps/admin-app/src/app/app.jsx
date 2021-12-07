@@ -10,13 +10,13 @@ import { routes } from '../config/routes';
 const App = () => (
   <div className="app">
     <BrowserRouter>
+      <Header />
       <Routes>
-        <Header />
         {routes.map((route) => (
           <Route key={route.path} path={route.path} element={route.element} />
         ))}
-        <Footer />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </div>
 );

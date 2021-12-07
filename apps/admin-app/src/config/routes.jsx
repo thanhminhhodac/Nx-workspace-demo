@@ -1,12 +1,4 @@
 // share routes
 import { shareRoutes } from '@thanhminh-org/shared/feature/config';
-// self routes
-import { Dashboard } from '@thanhminh-org/admin/pages/dashboard';
 
-export const routes = [
-  ...shareRoutes,
-  {
-    path: '/dashboard',
-    element: <Dashboard />,
-  },
-];
+export const routes = [...shareRoutes];
