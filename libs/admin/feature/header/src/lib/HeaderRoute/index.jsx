@@ -3,6 +3,8 @@ import React from 'react';
 import { navLinkRoutes } from '@thanhminh-org/admin/feature/routes';
 // shared libs
 import { HeaderNavLink } from '@thanhminh-org/shared/ui/header-navlink';
+// style
+import './style.scss';
 
 const HeaderRoute = () => {
   console.log(navLinkRoutes);

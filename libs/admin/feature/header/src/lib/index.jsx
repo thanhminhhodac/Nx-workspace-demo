@@ -4,6 +4,8 @@ import React from 'react';
 import { HeaderLogo } from '@thanhminh-org/shared/ui/header-logo';
 // components
 import HeaderRoute from './HeaderRoute';
+// style
+import './style.scss';
 
 export const Header = () => {
   return (

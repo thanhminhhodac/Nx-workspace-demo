@@ -1,8 +1,10 @@
-import './shared-pages-homepage.module.scss';
+import './style.scss';
 export const Homepage = () => {
   return (
     <div className="homepage-wrapper">
-      <h1>Welcome to Homepage!</h1>
+      <div className="homepage-wrapper-inner">
+        <h1 className="homepage-title">Welcome to Homepage!</h1>
+      </div>
     </div>
   );
 };

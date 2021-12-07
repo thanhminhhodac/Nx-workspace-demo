@@ -1,6 +1,8 @@
 // libs
 import React from 'react';
 import { Link } from 'react-router-dom';
+// style
+import './style.scss';
 
 /**
  * @param {Object} props
@@ -11,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 export const HeaderNavLink = ({ path, label }) => (
   <div className="navbar-link-wrapper">
-    <Link to={path}>{label}</Link>;
+    <Link to={path}>{label}</Link>
   </div>
 );
 
