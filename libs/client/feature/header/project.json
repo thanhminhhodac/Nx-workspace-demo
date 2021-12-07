@@ -2,7 +2,7 @@
   "root": "libs/client/feature/header",
   "sourceRoot": "libs/client/feature/header/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:client"],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",

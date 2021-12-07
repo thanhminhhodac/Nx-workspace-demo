@@ -2,7 +2,7 @@
   "root": "libs/shared/pages/homepage",
   "sourceRoot": "libs/shared/pages/homepage/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:shared"],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",

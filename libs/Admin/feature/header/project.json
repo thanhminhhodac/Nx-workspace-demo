@@ -2,7 +2,7 @@
   "root": "libs/admin/feature/header",
   "sourceRoot": "libs/admin/feature/header/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:admin"],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",

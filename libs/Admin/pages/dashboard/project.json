@@ -2,7 +2,7 @@
   "root": "libs/admin/pages/dashboard",
   "sourceRoot": "libs/admin/pages/dashboard/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["scope:admin"],
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
