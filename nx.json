@@ -1,7 +1,7 @@
 {
   "npmScope": "thanhminh-org",
   "affected": {
-    "defaultBase": "master"
+    "defaultBase": "develop"
   },
   "cli": {
     "defaultCollection": "@nrwl/react"
