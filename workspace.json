@@ -4,6 +4,7 @@
     "admin-app": "apps/admin-app",
     "admin-app-e2e": "apps/admin-app-e2e",
     "client-app": "apps/client-app",
-    "client-app-e2e": "apps/client-app-e2e"
+    "client-app-e2e": "apps/client-app-e2e",
+    "shared-feature-footer": "libs/shared/feature/footer"
   }
 }
