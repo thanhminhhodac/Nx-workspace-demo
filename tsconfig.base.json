@@ -23,6 +23,9 @@
       ],
       "@thanhminh-org/shared/feature/footer": [
         "libs/shared/feature/footer/src/index.js"
+      ],
+      "@thanhminh-org/shared/pages/homepage": [
+        "libs/shared/pages/homepage/src/index.js"
       ]
     }
   },

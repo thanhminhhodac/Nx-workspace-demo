@@ -7,6 +7,7 @@
     "client-app": "apps/client-app",
     "client-app-e2e": "apps/client-app-e2e",
     "client-feature-header": "libs/client/feature/header",
-    "shared-feature-footer": "libs/shared/feature/footer"
+    "shared-feature-footer": "libs/shared/feature/footer",
+    "shared-pages-homepage": "libs/shared/pages/homepage"
   }
 }
