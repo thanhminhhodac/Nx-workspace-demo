@@ -7,6 +7,6 @@ export const routes = [
   ...shareRoutes,
   {
     path: '/dashboard',
-    component: Dashboard,
+    element: <Dashboard />,
   },
 ];
