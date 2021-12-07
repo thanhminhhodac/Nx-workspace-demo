@@ -14,7 +14,26 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@thanhminh-org/admin/feature/header": [
+        "libs/admin/feature/header/src/index.js"
+      ],
+      "@thanhminh-org/admin/pages/dashboard": [
+        "libs/admin/pages/dashboard/src/index.js"
+      ],
+      "@thanhminh-org/client/feature/header": [
+        "libs/client/feature/header/src/index.js"
+      ],
+      "@thanhminh-org/shared/feature/config": [
+        "libs/shared/feature/config/src/index.js"
+      ],
+      "@thanhminh-org/shared/feature/footer": [
+        "libs/shared/feature/footer/src/index.js"
+      ],
+      "@thanhminh-org/shared/pages/homepage": [
+        "libs/shared/pages/homepage/src/index.js"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
