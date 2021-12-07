@@ -1,9 +1,8 @@
-import './shared-feature-footer.module.scss';
-export function SharedFeatureFooter(props) {
+export const Footer = () => {
   return (
-    <div>
+    <div className="footer-wrapper">
       <h1>Welcome to SharedFeatureFooter!</h1>
     </div>
   );
-}
-export default SharedFeatureFooter;
+};
+export default Footer;
