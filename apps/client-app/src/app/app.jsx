@@ -6,18 +6,24 @@ import { Footer } from '@thanhminh-org/shared/feature/footer';
 // self libs
 import { Header } from '@thanhminh-org/client/feature/header';
 import { routes } from '../config/routes.jsx';
+// style
+// style
+import 'antd/dist/antd.css';
+import './app.scss';
 
 const App = () => (
-  <div className="app">
-    <BrowserRouter>
-      <Routes>
-        <Footer />
-        {routes.map((route) => (
-          <Route key={route.path} path={route.path} element={route.element} />
-        ))}
+  <div className="app-wrapper">
+    <div className="app-wrapper-inner">
+      <BrowserRouter>
         <Header />
-      </Routes>
-    </BrowserRouter>
+        <Routes>
+          {routes.map((route) => (
+            <Route key={route.path} path={route.path} element={route.element} />
+          ))}
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   </div>
 );
 

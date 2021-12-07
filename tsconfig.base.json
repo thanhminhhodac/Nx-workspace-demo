@@ -18,8 +18,8 @@
       "@thanhminh-org/admin/feature/header": [
         "libs/admin/feature/header/src/index.js"
       ],
-      "@thanhminh-org/admin/pages/dashboard": [
-        "libs/admin/pages/dashboard/src/index.js"
+      "@thanhminh-org/admin/feature/routes": [
+        "libs/admin/feature/routes/src/index.js"
       ],
       "@thanhminh-org/client/feature/header": [
         "libs/client/feature/header/src/index.js"
@@ -32,6 +32,12 @@
       ],
       "@thanhminh-org/shared/pages/homepage": [
         "libs/shared/pages/homepage/src/index.js"
+      ],
+      "@thanhminh-org/shared/ui/header-logo": [
+        "libs/shared/ui/header-logo/src/index.js"
+      ],
+      "@thanhminh-org/shared/ui/header-navlink": [
+        "libs/shared/ui/header-navlink/src/index.js"
       ]
     }
   },
