@@ -2,12 +2,15 @@
 import React from 'react';
 // share libraries
 import { HeaderLogo } from '@thanhminh-org/shared/ui/header-logo';
+// components
+import HeaderRoute from './HeaderRoute';
 
 export const Header = () => {
   return (
     <div className="header-wrapper">
       <div className="header-wrapper-inner">
         <HeaderLogo title="AdminSite" />
+        <HeaderRoute />
       </div>
     </div>
   );

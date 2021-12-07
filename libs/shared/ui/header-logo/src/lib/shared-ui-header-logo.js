@@ -1,5 +1,6 @@
 // libs
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 /**
  * @param {Object} props
@@ -11,7 +12,9 @@ export const HeaderLogo = ({ title }) => {
   return (
     <div className="header-logo-wrapper">
       <div className="header-logo-wrapper-inner">
-        <h1 className="header-logo-title"> {title}</h1>
+        <Link to="/" className="header-logo-link">
+          <h1 className="header-logo-title"> {title} </h1>
+        </Link>
       </div>
     </div>
   );

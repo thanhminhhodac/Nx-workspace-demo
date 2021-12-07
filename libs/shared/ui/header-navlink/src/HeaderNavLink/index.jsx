@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 /**
  * @param {Object} props
  * @param {string} props.path
- * @param {string} props.label
+ * @param {sring} props.label
  * @returns {React.ReactElement}
  */
 
 export const HeaderNavLink = ({ path, label }) => (
   <div className="navbar-link-wrapper">
-    <Link to={path}> {label} </Link>;
+    <Link to={path}>{label}</Link>;
   </div>
 );
 

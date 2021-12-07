@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from '@thanhminh-org/shared/feature/footer';
 // self feature libraries
 import { Header } from '@thanhminh-org/admin/feature/header';
-import { routes } from '../config/routes';
+import { routes } from '@thanhminh-org/admin/feature/routes';
 
 const App = () => (
   <div className="app">

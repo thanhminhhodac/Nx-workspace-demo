@@ -4,6 +4,7 @@
     "admin-app": "apps/admin-app",
     "admin-app-e2e": "apps/admin-app-e2e",
     "admin-feature-header": "libs/admin/feature/header",
+    "admin-feature-routes": "libs/admin/feature/routes",
     "client-app": "apps/client-app",
     "client-app-e2e": "apps/client-app-e2e",
     "client-feature-header": "libs/client/feature/header",

@@ -18,6 +18,9 @@
       "@thanhminh-org/admin/feature/header": [
         "libs/admin/feature/header/src/index.js"
       ],
+      "@thanhminh-org/admin/feature/routes": [
+        "libs/admin/feature/routes/src/index.js"
+      ],
       "@thanhminh-org/client/feature/header": [
         "libs/client/feature/header/src/index.js"
       ],
