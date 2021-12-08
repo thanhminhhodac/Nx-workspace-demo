@@ -33,11 +33,17 @@
       "@thanhminh-org/shared/pages/homepage": [
         "libs/shared/pages/homepage/src/index.js"
       ],
+      "@thanhminh-org/shared/pages/showall": [
+        "libs/shared/pages/showall/src/index.js"
+      ],
       "@thanhminh-org/shared/ui/header-logo": [
         "libs/shared/ui/header-logo/src/index.js"
       ],
       "@thanhminh-org/shared/ui/header-navlink": [
         "libs/shared/ui/header-navlink/src/index.js"
+      ],
+      "@thanhminh-org/shared/util/data-sources": [
+        "libs/shared/util/data-sources/src/index.js"
       ]
     }
   },

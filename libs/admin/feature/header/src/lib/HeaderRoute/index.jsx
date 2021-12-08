@@ -7,7 +7,6 @@ import { HeaderNavLink } from '@thanhminh-org/shared/ui/header-navlink';
 import './style.scss';
 
 const HeaderRoute = () => {
-  console.log(navLinkRoutes);
   return (
     <div className="header-route-wrapper">
       <div className="header-route-wrapper-inner">
